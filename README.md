@@ -193,6 +193,18 @@ Pode haver conflitos nessa operação, pois ao reverter um commit que criou uma 
 	--------------------------------------------------------------------------------
 
 	--------------------------------------------------------------------------------
+         Arquivo "hosts"
+		 
+		# localhost name resolution is handled within DNS itself.
+		# Se mudar o nome do servidor "localhost", 
+		# haverá problemas de segurança ao abrir o navegador
+		# impedindo a abertura da página, mudar as configurações
+		# em "httpd-vhosts.conf" na pasta do "apache"
 
+			127.0.0.1       localhost
+		#	::1             localhost
+		#	127.0.0.1		www.hcodecommerce.com.br
+		#	127.0.0.1		www.dev.com
+   
 	--------------------------------------------------------------------------------	
 		
