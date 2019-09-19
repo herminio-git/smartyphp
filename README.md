@@ -3,10 +3,19 @@
 	Link da playlist do curso
 	https://www.youtube.com/watch?v=plugrCD3fmM&list=PLxNM4ef1BpxhVRanJzMvJ_JpSw3rPA5Oq&index=1
 
+	--------------------------------------------------------------------------------
+
 	Links para baixar arquivos e depedências
+	
 	Smarty: https://www.smarty.net/
+	
 	Bootstrap (em Português): https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
 	
+	DataTables: https://datatables.net/
+	
+	Font Awesome: https://fontawesome.com/v4.7.0/icons/
+
+	--------------------------------------------------------------------------------
 
 	Criando o projeto
 
