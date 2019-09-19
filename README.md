@@ -1,6 +1,7 @@
 # smartyphp
 
-	Link da playlist do curso
+	<h2>Link da playlist do curso</h2>
+	
 	https://www.youtube.com/watch?v=plugrCD3fmM&list=PLxNM4ef1BpxhVRanJzMvJ_JpSw3rPA5Oq&index=1
 
 	--------------------------------------------------------------------------------
