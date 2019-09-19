@@ -1,14 +1,18 @@
 # smartyphp
 
-Link da playlist do curso
-https://www.youtube.com/watch?v=plugrCD3fmM&list=PLxNM4ef1BpxhVRanJzMvJ_JpSw3rPA5Oq&index=1
+	Link da playlist do curso
+	https://www.youtube.com/watch?v=plugrCD3fmM&list=PLxNM4ef1BpxhVRanJzMvJ_JpSw3rPA5Oq&index=1
 
+	Links para baixar arquivos e depedências
+	Smarty: https://www.smarty.net/
+	Bootstrap (em Português): https://getbootstrap.com.br/docs/4.1/getting-started/introduction/
+	
 
-Criando o projeto
+	Criando o projeto
 
 	--------------------------------------------------------------------------------
 	
-	- 1° criando o repositório no Github com o nome de "lojaphp7".
+	- 1° criando o repositório no Github com o nome de "smartyphp".
 	
 	--------------------------------------------------------------------------------
 	
@@ -33,13 +37,13 @@ Criando o projeto
     
 	- 5° clonando o repositório do github
 		
-		$ git clone https://github.com/herminio-git/lojaphp7.git
+		$ git clone https://github.com/herminio-git/smartyphp.git
 		
 		e de um "ENTER" 
 		
 	--------------------------------------------------------------------------------
 	
-	- 6° Selecionando os arquivos de dentro da pasta "lojaphp7" da máquina para 
+	- 6° Selecionando os arquivos de dentro da pasta "smartyphp" da máquina para 
 	envio para o Github.
 
 		$ git add --all
@@ -177,7 +181,7 @@ Pode haver conflitos nessa operação, pois ao reverter um commit que criou uma 
  Neste caso o git dará um aviso e você terá que resolver os conflitos.
  
 	--------------------------------------------------------------------------------
-
+	
 	--------------------------------------------------------------------------------
 
 	--------------------------------------------------------------------------------
