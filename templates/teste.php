@@ -12,7 +12,7 @@
   <body>
       <div class="container">
 
-        <a href"../../../../phpMyAdmin/index.php" class="btn btn-success mt-5 mb-5">PhpMyAdmin</a>
+        <a href"../../../../p/index.php" class="btn btn-success mt-5 mb-5">PhpMyAdmin</a>
 
         <h3>{$var1}</h3>
         <h4>{$var2}</h4>
