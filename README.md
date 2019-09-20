@@ -15,6 +15,14 @@
 	DataTables: https://datatables.net/
 	
 	Font Awesome: https://fontawesome.com/v4.7.0/icons/
+	
+	Como criar e alterar virtual host (hospedagem virtual) - Wamp Server:
+	https://www.visualdicas.com.br/index.php/tools/web-server/4-como-alterar-um-servidor-virtual-wamp-server
+	
+	Como configurar múltiplos VirtualHosts no Apache:
+	https://verticis.com.br/blog/tutoriais/como-configurar-multiplos-virtualhosts-no-apache/
+	
+	
 
 	--------------------------------------------------------------------------------
 
