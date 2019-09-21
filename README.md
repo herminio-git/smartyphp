@@ -88,7 +88,7 @@
 	--------------------------------------------------------------------------------
     
 	Bruno Orlandi
-	Fonte:https://brorlandi.github.io/git-desfazendo-commits
+	Fonte: https://brorlandi.github.io/git-desfazendo-commits
 	
 	Problema ao fazer o "push" 
 	
@@ -115,7 +115,7 @@ $ git pull origin master
 	--------------------------------------------------------------------------------
     
 	Bruno Orlandi
-	Fonte:https://brorlandi.github.io/git-desfazendo-commits
+	Fonte: https://brorlandi.github.io/git-desfazendo-commits
 		
 	Checkout
 
@@ -128,7 +128,7 @@ git checkout -- arquivo.txt
 	--------------------------------------------------------------------------------
     
 	Bruno Orlandi
-	Fonte:https://brorlandi.github.io/git-desfazendo-commits
+	Fonte: https://brorlandi.github.io/git-desfazendo-commits
 		
 	Navegando no repositório
 	
@@ -148,7 +148,7 @@ branch master. Use git checkout master para voltar para a master no último comm
 	--------------------------------------------------------------------------------
     
 	Bruno Orlandi
-	Fonte:https://brorlandi.github.io/git-desfazendo-commits
+	Fonte: https://brorlandi.github.io/git-desfazendo-commits
 		
 	Reset
 
@@ -162,7 +162,7 @@ Pronto, o arquivo saiu do stage.
 	--------------------------------------------------------------------------------
     
 	Bruno Orlandi
-	Fonte:https://brorlandi.github.io/git-desfazendo-commits
+	Fonte: https://brorlandi.github.io/git-desfazendo-commits
 		
 	Resetando commits
 
@@ -179,7 +179,7 @@ Veja que o commit foi desfeito mas as alterações nos arquivos ainda ficaram. N
 	--------------------------------------------------------------------------------
     
 	Bruno Orlandi
-	Fonte:https://brorlandi.github.io/git-desfazendo-commits
+	Fonte: https://brorlandi.github.io/git-desfazendo-commits
 		
 	Revert
 

@@ -1,5 +1,5 @@
 <?php 
-
+    session_start();
     include("includes/config.ini.php");
 
     $titulo = " Smarty e PHP7 ";

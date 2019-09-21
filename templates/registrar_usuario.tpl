@@ -31,19 +31,20 @@
                 
 
             <div class="card ">
-                <div class="card-header text-white bg-primary">
-                    Destaque
-            </div>
+                <div class="card-header text-white bg-primary text-center">
+                    Adicionar Usuário
+            </div><br>
             
                 <form name="registrar_usuario" method="post">
         
                     <div class="card-body">
-                        <div class="form-group">
+                        {{$alerta}}
+                        <div class="form-group mt-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
                                     Nome Completo  
                                 </span>
-                                <input type="text" name="nome_completo" id="nome_completo" class="form-control" placeholder="Insira seu nome de completo"   required>
+                                <input type="text" name="nome_completo" id="nome_completo" class="form-control" placeholder="Insira seu nome de completo" value="{$smarty.post.nome_completo}"  required>
                             </div>
                         </div>
 
@@ -52,7 +53,7 @@
                                 <span class="input-group-text">
                                     Nome Usuário &nbsp &nbsp     
                                 </span>
-                                <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Insira seu nome de usuário"   required>
+                                <input type="text" name="usuario" id="usuario" class="form-control" placeholder="Insira seu nome de usuário" value="{$smarty.post.usuario}"  required>
                             </div>
                         </div>
 
@@ -76,7 +77,7 @@
 
                         <center>
                             <input class="btn btn-primary" type="submit" name="btn_Inserir" value="Inserir Usuário">
-                            <a href="index.php" class="btn btn-danger">Cancelar</a>
+                            <a href="index.php" class="btn btn-danger">&nbsp &nbsp &nbsp Cancelar &nbsp &nbsp &nbsp </a>
                         </center>
                                  
                     </div>
