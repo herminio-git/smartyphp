@@ -9,7 +9,7 @@
             
         </div>
 
-        <div class="list-group mt-3">
+        <div class="list-group mt-3 mb-3">
             <a href="#" class="list-group-item  active">Menu de Funcionários</a>
             <a href="#" class="list-group-item  ">Inserir Funcionário</a>
             <a href="#" class="list-group-item  ">Editar Funcionário</a>

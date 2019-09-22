@@ -12,7 +12,7 @@
         $confirmar_senha = $_POST["confirmar_senha"];
 
         // $conexao =conectar();
-        $sql = "SELECT * FROM tb_usuarios WHERE db_usuario='$usuario'";
+        $sql = "SELECT * FROM tb_usuarios WHERE db_id_usuario='$usuario'";
         $result = mysqli_query($conexao, $sql);
 
         if($senha != $confirmar_senha){
@@ -27,7 +27,7 @@
                  </span></div>";
         }else{
             $sql_cadastra = "INSERT INTO tb_usuarios(
-                db_nome_completo, db_usuario, db_senha, db_confirmar_senha)
+                db_nome_completo, db_id_usuario, db_senha, db_confirmar_senha)
                 VALUES ('$nome_completo','$usuario','$senha','$confirmar_senha')";
                 
                 $cadastra = mysqli_query($conexao, $sql_cadastra);
