@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-22 09:16:24
+/* Smarty version 3.1.33, created on 2019-09-24 14:25:15
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d871fc861c8f4_47545077',
+  'unifunc' => 'content_5d8a0b2b321eb4_70829440',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4c0cbf657826b699776368e65d9dc3e03274183a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\login.tpl',
-      1 => 1569136581,
+      1 => 1569317367,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d871fc861c8f4_47545077 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8a0b2b321eb4_70829440 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <div class="default col-md-9">
 
@@ -32,11 +32,11 @@ function content_5d871fc861c8f4_47545077 (Smarty_Internal_Template $_smarty_tpl)
                 <form name="registrar_usuario" method="post">
         
                     <div class="card-body">
-                        <!-- <?php ob_start();
+                         <?php ob_start();
 echo $_smarty_tpl->tpl_vars['alerta']->value;
 $_prefixVariable1 = ob_get_clean();
 echo $_prefixVariable1;?>
- -->
+ 
                        
 
                         <div class="form-group">
@@ -44,7 +44,10 @@ echo $_prefixVariable1;?>
                                 <span class="input-group-text">
                                    Usuário&nbsp    
                                 </span>
-                                <input type="text" name="usuario_login" id="usuario_login" class="form-control" placeholder="Insira seu nome de usuário" required>
+                                <input type="text" name="login_usuario" 
+                                id="usuario_login" class="form-control" 
+                                placeholder="Insira seu nome de usuário" 
+                                required>
                             </div>
                         </div>
 
@@ -53,7 +56,10 @@ echo $_prefixVariable1;?>
                                 <span class="input-group-text">
                                  Senha &nbsp &nbsp
                                 </span>
-                                <input type="text" name="senha_login" id="senha_login" class="form-control" placeholder="Insira sua senha..."   required>
+                                <input type="password" name="login_senha" 
+                                    id="senha_login" class="form-control" 
+                                    placeholder="Insira sua senha..."   
+                                    required>
                             </div>
                         </div>
 

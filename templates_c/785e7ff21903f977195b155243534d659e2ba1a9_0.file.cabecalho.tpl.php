@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-20 18:34:03
+/* Smarty version 3.1.33, created on 2019-09-24 02:00:08
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\cabecalho.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d84ff7b1aac77_27664161',
+  'unifunc' => 'content_5d895c88b7c591_72857172',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '785e7ff21903f977195b155243534d659e2ba1a9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\cabecalho.tpl',
-      1 => 1568997239,
+      1 => 1569241292,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d84ff7b1aac77_27664161 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d895c88b7c591_72857172 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="pt-br">
   <head>
@@ -38,7 +38,24 @@ echo $_prefixVariable1;?>
     <link rel="stylesheet" type="text/css" href="templates/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <?php echo '<script'; ?>
+ type="text/javascript" src="templates/js/jquery-3.3.1.slim.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="templates/js/bootstrap-4.3.1.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="templates/js/dataTables.bootstrap.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="templates/js/jquery.dataTables.min.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ type="text/javascript" src="templates/js/popper-1.14.7.min.js"><?php echo '</script'; ?>
+>
+ 
   
 
     <!-- Bootstrap CSS -->

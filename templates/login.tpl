@@ -9,7 +9,7 @@
                 <form name="registrar_usuario" method="post">
         
                     <div class="card-body">
-                        <!-- {{$alerta}} -->
+                         {{$alerta}} 
                        
 
                         <div class="form-group">
@@ -17,7 +17,10 @@
                                 <span class="input-group-text">
                                    Usuário&nbsp    
                                 </span>
-                                <input type="text" name="usuario_login" id="usuario_login" class="form-control" placeholder="Insira seu nome de usuário" required>
+                                <input type="text" name="login_usuario" 
+                                id="usuario_login" class="form-control" 
+                                placeholder="Insira seu nome de usuário" 
+                                required>
                             </div>
                         </div>
 
@@ -26,7 +29,10 @@
                                 <span class="input-group-text">
                                  Senha &nbsp &nbsp
                                 </span>
-                                <input type="text" name="senha_login" id="senha_login" class="form-control" placeholder="Insira sua senha..."   required>
+                                <input type="password" name="login_senha" 
+                                    id="senha_login" class="form-control" 
+                                    placeholder="Insira sua senha..."   
+                                    required>
                             </div>
                         </div>
 

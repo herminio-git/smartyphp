@@ -11,7 +11,14 @@
     <link rel="stylesheet" type="text/css" href="templates/css/dataTables.bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="templates/js/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="templates/js/bootstrap-4.3.1.js"></script>
+    <script type="text/javascript" src="templates/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="templates/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="templates/js/popper-1.14.7.min.js"></script>
+ 
   
 
     <!-- Bootstrap CSS -->

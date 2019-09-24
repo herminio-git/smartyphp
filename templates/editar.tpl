@@ -1,24 +1,22 @@
 
     <div class="default col-md-9">
-
+       
             <div class="card ">
                 <div class="card-header text-white bg-primary text-center">
-                    Adicionar Usuário
+                    Editar Usuário
                 </div><br>
             
                 <form name="registrar_usuario" method="post">
         
                     <div class="card-body">
-                        {{$alerta}}
                         <div class="form-group mt-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
                                     Nome Completo  
                                 </span>
-                                <input type="text" name="rg_nome_completo" id="rg_nome_completo" 
-                                    class="form-control" placeholder="Insira seu nome de completo" 
-                                    value="{$smarty.post.rg_nome_completo}"  
-                                    required>
+                                <input type="text" name="ed_nome_completo" id="ed_nome_completo"
+                                     class="form-control" placeholder="Insira seu nome de completo" 
+                                     value="{$nome_completo}"  required>
                             </div>
                         </div>
 
@@ -27,10 +25,9 @@
                                 <span class="input-group-text">
                                     Nome Usuário &nbsp &nbsp     
                                 </span>
-                                <input type="text" name="rg_usuario" id="rg_usuario" 
-                                    class="form-control" placeholder="Insira seu nome de usuário" 
-                                     value="{$smarty.post.rg_usuario}"  
-                                    required>
+                                <input type="text" name="ed_usuario" id="ed_usuario" 
+                                    class="form-control" placeholder="Insira seu nome de usuário"
+                                     value="{$usuario}"  required>
                             </div>
                         </div>
 
@@ -39,10 +36,10 @@
                                 <span class="input-group-text">
                                     Senha&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp 
                                 </span>
-                                <input type="password" name="rg_senha" 
-                                    id="rg_senha" class="form-control" 
-                                    placeholder="Insira sua senha..."   
-                                    required>
+                                <input type="password" name="ed_senha" id="ed_senha"
+                                     class="form-control" placeholder="Insira sua senha..." 
+                                     value="{$senha}"  
+                                     required>
                             </div>
                         </div>
 
@@ -51,16 +48,22 @@
                                 <span class="input-group-text">
                                     Confirmar senha   
                                 </span>
-                                <input type="password" name="rg_confirmar_senha" 
-                                    id="rg_confirmar_senha" class="form-control" 
-                                    placeholder="Confirme a senha..."  
+                                <input type="password" name="ed_confirmar_senha" id="ed_confirmar_senha" 
+                                    class="form-control" placeholder="Confirme a senha..."   
+                                    value="{$confirmar_senha}"
                                     required>
                             </div>
                         </div>
 
+                        <input type="hidden" name="ed_usuario" id="ed_usuario" value="{$usuario}">
+
                         <center>
-                            <input class="btn btn-primary" type="submit" name="btn_Inserir" value="Inserir Usuário">
-                            <a href="index.php" class="btn btn-danger">&nbsp &nbsp &nbsp Cancelar &nbsp &nbsp &nbsp </a>
+                            <input class="btn btn-primary" type="submit" 
+                                name="btn_editar" value="Editar Usuário">
+                                <a href="index.php" 
+                                    class="btn btn-danger">
+                                    &nbsp &nbsp &nbsp Cancelar &nbsp &nbsp &nbsp 
+                                </a>
                         </center>
                                  
                     </div>
