@@ -209,20 +209,75 @@ Pode haver conflitos nessa operação, pois ao reverter um commit que criou uma 
 	--------------------------------------------------------------------------------
 
 	--------------------------------------------------------------------------------
+	
+		Arquivo "httpd-vhosts.conf"
+		
+		<VirtualHost 127.0.0.3:80>
+		ServerAdmin localhost@gmail.com
+		DocumentRoot "C:/xampp/htdocs/qcursos/smartyphp"
+		ServerName www.smartyphp.com
+		ErrorLog "logs/dummy-host2.example.com-error.log"
+		CustomLog "logs/dummy-host2.example.com-access.log" common
+			<Directory "C:/xampp/htdocs/qcursos/smartyphp">
+				Require all granted
+
+				RewriteEngine On
+
+				RewriteCond %{REQUEST_FILENAME} !-d
+				RewriteCond %{REQUEST_FILENAME} !-f
+				RewriteRule ^ index.php [QSA,L]
+			</Directory>
+		</VirtualHost>
+
+		<VirtualHost 127.0.0.4:80>
+			ServerAdmin webmaster@hcode.com.br
+			ServerName www.hcodecommerce.com.br
+			DocumentRoot "C:/xampp/htdocs/hcode/ecommerce"
+			ErrorLog "logs/dummy-host2.example.com-error.log"
+			CustomLog "logs/dummy-host2.example.com-access.log" common
+				<Directory "C:/xampp/htdocs/hcode/ecommerce">
+					Require all granted
+
+					RewriteEngine On
+
+					RewriteCond %{REQUEST_FILENAME} !-d
+					RewriteCond %{REQUEST_FILENAME} !-f
+					RewriteRule ^ index.php [QSA,L]
+				</Directory>
+		</VirtualHost>
+	
+		<VirtualHost 127.0.0.5:80>
+			ServerAdmin webmaster@hcode.com.br
+			ServerName www.cevwordpress.com
+			DocumentRoot "C:/xampp/htdocs/cevwordpress"
+			ErrorLog "logs/dummy-host2.example.com-error.log"
+			CustomLog "logs/dummy-host2.example.com-access.log" common
+				<Directory "C:/xampp/htdocs/cevwordpress">
+					Require all granted
+
+					RewriteEngine On
+
+					RewriteCond %{REQUEST_FILENAME} !-d
+					RewriteCond %{REQUEST_FILENAME} !-f
+					RewriteRule ^ index.php [QSA,L]
+				</Directory>
+		</VirtualHost>	
 
 	--------------------------------------------------------------------------------
          Arquivo "hosts"
 		 
-		# localhost name resolution is handled within DNS itself.
 		# Se mudar o nome do servidor "localhost", 
 		# haverá problemas de segurança ao abrir o navegador
 		# impedindo a abertura da página, mudar as configurações
 		# em "httpd-vhosts.conf" na pasta do "apache"
 
 			127.0.0.1       localhost
+		#	127.0.0.2       localhost
 		#	::1             localhost
-		#	127.0.0.1		www.hcodecommerce.com.br
-		#	127.0.0.1		www.dev.com
+	
+			127.0.0.3		www.smartyphp.com
+			127.0.0.4		www.hcodecommerce.com.br
+			127.0.0.5       www.cevwordpress.com
    
 	--------------------------------------------------------------------------------	
 		
