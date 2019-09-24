@@ -3,10 +3,10 @@
 
             <div class="card ">
                 <div class="card-header text-white bg-primary text-center">
-                    Adicionar Usuário
+                    Adicionar Funcionário
                 </div><br>
             
-                <form name="registrar_usuario" method="post">
+                <form name="registrar_funcionario" method="post">
         
                     <div class="card-body">
                         {{$alerta}}
@@ -22,13 +22,24 @@
                             </div>
                         </div>
 
+                        <div class="form-group mt-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">
+                                    CPF&nbsp &nbsp &nbsp
+                                </span>
+                                <input type="text" name="rg_cpf" id="rg_cpf" 
+                                    class="form-control" placeholder="Insira seu CPF..."  
+                                    required>
+                            </div>
+                        </div>
+
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    Nome Usuário &nbsp &nbsp     
+                                    Endereço &nbsp &nbsp     
                                 </span>
-                                <input type="text" name="rg_usuario" id="rg_usuario" 
-                                    class="form-control" placeholder="Insira seu nome de usuário" 
+                                <input type="text" name="rg_endereco" id="rg_endereco" 
+                                    class="form-control" placeholder="Insira o endereço..." 
                                       
                                     required>
                             </div>
@@ -37,30 +48,21 @@
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    Senha&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp 
+                                    Telefone&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp 
                                 </span>
-                                <input type="password" name="rg_senha" 
+                                <input type="text" name="rg_telefone" 
                                     id="rg_senha" class="form-control" 
-                                    placeholder="Insira sua senha..."   
+                                    placeholder="Insira o telefone..."   
                                     required>
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">
-                                    Confirmar senha   
-                                </span>
-                                <input type="password" name="rg_confirmar_senha" 
-                                    id="rg_confirmar_senha" class="form-control" 
-                                    placeholder="Confirme a senha..."  
-                                    required>
-                            </div>
+                        
                         </div>
 
                         <center>
-                            <input class="btn btn-primary" type="submit" name="btn_Inserir" value="Inserir Usuário">
-                            <a href="index.php" class="btn btn-danger">&nbsp &nbsp &nbsp Cancelar &nbsp &nbsp &nbsp </a>
+                            <input class="btn btn-primary mb-4" type="submit" name="btn_Inserir" value="Inserir Funcionário">
+                            <a href="index.php" class="btn btn-danger mb-4">&nbsp &nbsp &nbsp Cancelar &nbsp &nbsp &nbsp </a>
                         </center>
                                  
                     </div>

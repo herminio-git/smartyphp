@@ -25,15 +25,18 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   </head>
   <body>
-        <div class="container mt-4" style="width:90%">
-		      <div class="row">
-			      <div class="col-12 text-center mb-5 para_imprimir">
-                    <h1 div class="display-5"><i class="fas fa-user-friends text-secondary mr-3"></i>Sistema de Gerenciamento</h1>
-                        <p>Controle de Funcionários</p>
-                    
-            </div>
-
+    <div class="container mt-4" style="width:90%">
+      <div class="row">
+        <div class="col-12 text-center mb-5 para_imprimir">
+                <h1 div class="display-5">
+                  <i class="fas fa-user-friends text-secondary mr-3"></i>
+                    Sistema de Gerenciamento
+                  </h1>
+                    <p>Controle de Funcionários</p>
+                
         </div>
+
+    </div>
                 
            
 

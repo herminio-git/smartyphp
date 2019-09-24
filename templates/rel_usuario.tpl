@@ -28,8 +28,17 @@
 		</div>
 		<div class="mb-4">
 			<center>
-				<a href="index.php" class="btn btn-danger para_imprimir">Cancelar</a>
-				<button class="btn btn-success para_imprimir" onclick="imprimir_rel()">Imprimir</button>
+				
+                <button class="btn btn-success para_imprimir" 
+                    onclick="imprimir_rel()">
+                    Imprimir
+                </button>
+                
+                <a href="index.php" 
+                    class="btn btn-danger para_imprimir">
+                    Cancelar
+                </a>
+				
 			</center>
 		</div>
 	</div>

@@ -1,4 +1,4 @@
-<<?php 
+<?php 
 $botao = "";
 session_start();
 include("includes/config.ini.php");
@@ -9,7 +9,7 @@ $titulo = "Sistema de Gerenciamento";
 
 $smarty->assign("titulo", $titulo);
 $smarty->display("cabecalho.tpl");
-if(!isset($_SESSION["usuario"])){
+if(!isset($_SESSION["db_usuario"])){
 		$botao = "disabled";
 	}
 $smarty->assign("botao", $botao);
@@ -33,7 +33,7 @@ if(isset($_GET["ac"]) && $_GET["ac"]=="registrar_usuario"){
 }else if(isset($_GET["ac"]) && $_GET["ac"]=="registrar_funcionario"){
 	include("registrar_funcionario.php");
 
-}else if(isset($_GET["ac"]) && $_GET["ac"]=="editar_funcionario"){
+}else if(isset($_GET["ac"]) && $_GET["ac"]=="editar_func"){
 	include("editar_funcionario.php");
 
 }else if(isset($_GET["ac"]) && $_GET["ac"]=="editar_func"){

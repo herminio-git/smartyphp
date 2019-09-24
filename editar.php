@@ -15,7 +15,12 @@ if($_POST){
 		</script>"; 
 	}
 
-	$sql = "UPDATE tb_usuarios SET db_nome_completo = '$nome_completo', db_usuario = '$usuario', db_senha = '$senha', db_confirmar_senha = '$confirmar_senha' WHERE db_id_usuario = '$id_usuario' ";
+	$sql = "UPDATE tb_usuarios SET 
+                    db_nome_completo = '$nome_completo', 
+                    db_usuario = '$usuario', 
+                    db_senha = '$senha', 
+                    db_confirmar_senha = '$confirmar_senha' 
+                    WHERE db_id_usuario = '$id_usuario' ";
 
 	$result = mysqli_query($conexao, $sql);
 	if($result == ''){
@@ -30,7 +35,7 @@ if($_POST){
 		alert('Usuário editado com sucesso!');
 		location.replace('index.php?ac=editar_usuario');
 		</script>"; 
-		
+		echo $result;
 	}
 
 }

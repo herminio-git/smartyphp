@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-24 02:00:08
+/* Smarty version 3.1.33, created on 2019-09-24 21:13:26
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\cabecalho.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d895c88b7c591_72857172',
+  'unifunc' => 'content_5d8a6ad6841bf8_31167413',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '785e7ff21903f977195b155243534d659e2ba1a9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\cabecalho.tpl',
-      1 => 1569241292,
+      1 => 1569352319,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d895c88b7c591_72857172 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8a6ad6841bf8_31167413 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="pt-br">
   <head>
@@ -62,15 +62,18 @@ echo $_prefixVariable1;?>
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   </head>
   <body>
-        <div class="container mt-4" style="width:90%">
-		      <div class="row">
-			      <div class="col-12 text-center mb-5 para_imprimir">
-                    <h1 div class="display-5"><i class="fas fa-user-friends text-secondary mr-3"></i>Sistema de Gerenciamento</h1>
-                        <p>Controle de Funcionários</p>
-                    
-            </div>
-
+    <div class="container mt-4" style="width:90%">
+      <div class="row">
+        <div class="col-12 text-center mb-5 para_imprimir">
+                <h1 div class="display-5">
+                  <i class="fas fa-user-friends text-secondary mr-3"></i>
+                    Sistema de Gerenciamento
+                  </h1>
+                    <p>Controle de Funcionários</p>
+                
         </div>
+
+    </div>
                 
            
 
