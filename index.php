@@ -57,7 +57,7 @@ if(isset($_GET["ac"]) && $_GET["ac"]=="registrar_usuario"){
 }else if(isset($_GET["ac"]) && $_GET["ac"]=="rel_funcionario"){
 	include("rel_funcionario.php");
 
-}else if(!isset($_SESSION["usuario"])){
+}else if(!isset($_SESSION["db_usuario"])){
 	include("login.php");
 }else{
 	?>
