@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-24 14:25:15
+/* Smarty version 3.1.33, created on 2019-09-25 21:35:11
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8a0b2b321eb4_70829440',
+  'unifunc' => 'content_5d8bc16f141512_66545817',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4c0cbf657826b699776368e65d9dc3e03274183a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\login.tpl',
-      1 => 1569317367,
+      1 => 1569440100,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8a0b2b321eb4_70829440 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8bc16f141512_66545817 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <div class="default col-md-9">
 
@@ -64,7 +64,7 @@ echo $_prefixVariable1;?>
                         </div>
 
                         <center>
-                            <input class="btn btn-primary" type="submit" name="btn_Inserir" value="Login">
+                            <input class="btn btn-primary w-25" type="submit" name="btn_Inserir" value="Login">
                            
                         </center>
                                  

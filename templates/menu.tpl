@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="default col-md-3 para_imprimir">
+	<div class="default col-md-2 para_imprimir">
 		<div class="list-group">
 			<a href="#" class="list-group-item active">Menu Usuários</a>
 			

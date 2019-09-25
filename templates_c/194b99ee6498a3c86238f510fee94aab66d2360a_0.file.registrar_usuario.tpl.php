@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-24 21:21:58
+/* Smarty version 3.1.33, created on 2019-09-26 00:59:21
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\registrar_usuario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8a6cd67c5da6_33783834',
+  'unifunc' => 'content_5d8bf149366cd7_60250704',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '194b99ee6498a3c86238f510fee94aab66d2360a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\registrar_usuario.tpl',
-      1 => 1569352908,
+      1 => 1569452322,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8a6cd67c5da6_33783834 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8bf149366cd7_60250704 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-    <div class="default col-md-9">
+    <div class="default col-md-10">
 
             <div class="card ">
                 <div class="card-header text-white bg-primary text-center">

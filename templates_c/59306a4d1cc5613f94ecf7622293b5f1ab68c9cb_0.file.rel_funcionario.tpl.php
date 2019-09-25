@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-25 16:39:59
+/* Smarty version 3.1.33, created on 2019-09-26 01:04:23
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\rel_funcionario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8b7c3fd9ed49_90186469',
+  'unifunc' => 'content_5d8bf2773ae2f2_39693917',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '59306a4d1cc5613f94ecf7622293b5f1ab68c9cb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\rel_funcionario.tpl',
-      1 => 1569422391,
+      1 => 1569452337,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8b7c3fd9ed49_90186469 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8bf2773ae2f2_39693917 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-<div class="col-md-9">
+<div class="col-md-10">
 	
     <div class="card ">
             <div class="card-header text-white bg-primary text-center">

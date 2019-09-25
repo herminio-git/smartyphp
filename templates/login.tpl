@@ -1,5 +1,5 @@
 
-    <div class="default col-md-9">
+    <div class="default col-md-10">
 
             <div class="card ">
                 <div class="card-header text-white bg-primary text-center">
@@ -37,7 +37,7 @@
                         </div>
 
                         <center>
-                            <input class="btn btn-primary" type="submit" name="btn_Inserir" value="Login">
+                            <input class="btn btn-primary w-25" type="submit" name="btn_Inserir" value="Login">
                            
                         </center>
                                  

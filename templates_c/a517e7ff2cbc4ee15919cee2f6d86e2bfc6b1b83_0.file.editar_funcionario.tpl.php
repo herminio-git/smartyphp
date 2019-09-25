@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-24 22:53:51
+/* Smarty version 3.1.33, created on 2019-09-26 01:04:19
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\editar_funcionario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8a825fc2c306_13591394',
+  'unifunc' => 'content_5d8bf273b7d672_05984023',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a517e7ff2cbc4ee15919cee2f6d86e2bfc6b1b83' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\editar_funcionario.tpl',
-      1 => 1569358343,
+      1 => 1569452233,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8a825fc2c306_13591394 (Smarty_Internal_Template $_smarty_tpl) {
-?><div class="col-md-9">
+function content_5d8bf273b7d672_05984023 (Smarty_Internal_Template $_smarty_tpl) {
+?><div class="col-md-10">
 
     <div class="card ">
         <div class="card-header text-white bg-primary text-center">

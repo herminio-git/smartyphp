@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-25 19:32:46
+/* Smarty version 3.1.33, created on 2019-09-26 00:55:43
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8ba4be0279e9_28305161',
+  'unifunc' => 'content_5d8bf06faa8732_38428377',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8c1cdeb3621a944c6d651043dd0a8230cc28b799' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\menu.tpl',
-      1 => 1569432760,
+      1 => 1569452136,
       2 => 'file',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8ba4be0279e9_28305161 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8bf06faa8732_38428377 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="row">
-	<div class="default col-md-3 para_imprimir">
+	<div class="default col-md-2 para_imprimir">
 		<div class="list-group">
 			<a href="#" class="list-group-item active">Menu Usuários</a>
 			

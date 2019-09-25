@@ -1,5 +1,5 @@
 
-    <div class="default col-md-9">
+    <div class="default col-md-10">
 
             <div class="card ">
                 <div class="card-header text-white bg-primary text-center">
