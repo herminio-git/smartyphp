@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-24 15:24:47
+/* Smarty version 3.1.33, created on 2019-09-25 16:39:57
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\editar_usuario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8a191f1f6521_42160686',
+  'unifunc' => 'content_5d8b7c3d2ff7a2_64545118',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b51d008622c2b76cc9a9e2060d1b67c71a392fd1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\editar_usuario.tpl',
-      1 => 1569329394,
+      1 => 1569422355,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8a191f1f6521_42160686 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8b7c3d2ff7a2_64545118 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="col-md-9">
 
     <div class="card ">
@@ -81,10 +81,11 @@ echo $_smarty_tpl->tpl_vars['tb_usuarios']->value['db_id_usuario'];
 $_prefixVariable6 = ob_get_clean();
 echo $_prefixVariable6;?>
 " 
-                            class="btn btn-danger">
+                            class="btn btn-danger ">
                             <i class="fas fa-trash-alt mr-2"></i>
                                 Excluir
                             </a>
+
                         </td>
                     </tr>
                     <?php ob_start();

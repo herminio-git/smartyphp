@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-25 16:40:56
-  from 'C:\xampp\htdocs\qcursos\smartyphp\templates\rel_usuario.tpl' */
+/* Smarty version 3.1.33, created on 2019-09-25 16:39:59
+  from 'C:\xampp\htdocs\qcursos\smartyphp\templates\rel_funcionario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8b7c78a5bdc7_13666571',
+  'unifunc' => 'content_5d8b7c3fd9ed49_90186469',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'ee3078f90d44a82c3341b63f1032f1ffa7c2c6c3' => 
+    '59306a4d1cc5613f94ecf7622293b5f1ab68c9cb' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\rel_usuario.tpl',
-      1 => 1569422450,
+      0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\rel_funcionario.tpl',
+      1 => 1569422391,
       2 => 'file',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8b7c78a5bdc7_13666571 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8b7c3fd9ed49_90186469 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="col-md-9">
 	
     <div class="card ">
             <div class="card-header text-white bg-primary text-center">
-                Relatório de Usuários - <?php ob_start();
+                Relatório de Funcionários - <?php ob_start();
 echo $_smarty_tpl->tpl_vars['data_atual']->value;
 $_prefixVariable1 = ob_get_clean();
 echo $_prefixVariable1;?>
@@ -38,31 +38,43 @@ echo $_prefixVariable1;?>
 				<thead>
 					<th>ID</th>
 					<th>Nome</th>
-					<th>Usuário</th>
+					<th>CPF</th>
+					<th>Endereço</th>
+					<th>Telefone</th>
 					
 				</thead>
 				<?php ob_start();
-$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['array_usuarios']->value, 'tb_usuario');
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['array_funcionarios']->value, 'tb_funcionarios');
 if ($_from !== null) {
-foreach ($_from as $_smarty_tpl->tpl_vars['tb_usuario']->value) {
+foreach ($_from as $_smarty_tpl->tpl_vars['tb_funcionarios']->value) {
 $_prefixVariable2 = ob_get_clean();
 echo $_prefixVariable2;?>
 
 				<tr>
 					<td><?php ob_start();
-echo $_smarty_tpl->tpl_vars['tb_usuario']->value['db_id_usuario'];
+echo $_smarty_tpl->tpl_vars['tb_funcionarios']->value['db_id_funcionario'];
 $_prefixVariable3 = ob_get_clean();
 echo $_prefixVariable3;?>
 </td>
 					<td><?php ob_start();
-echo $_smarty_tpl->tpl_vars['tb_usuario']->value['db_nome_completo'];
+echo $_smarty_tpl->tpl_vars['tb_funcionarios']->value['db_nome_completo'];
 $_prefixVariable4 = ob_get_clean();
 echo $_prefixVariable4;?>
 </td>
 					<td><?php ob_start();
-echo $_smarty_tpl->tpl_vars['tb_usuario']->value['db_usuario'];
+echo $_smarty_tpl->tpl_vars['tb_funcionarios']->value['db_cpf'];
 $_prefixVariable5 = ob_get_clean();
 echo $_prefixVariable5;?>
+</td>
+					<td><?php ob_start();
+echo $_smarty_tpl->tpl_vars['tb_funcionarios']->value['db_endereco'];
+$_prefixVariable6 = ob_get_clean();
+echo $_prefixVariable6;?>
+</td>
+					<td><?php ob_start();
+echo $_smarty_tpl->tpl_vars['tb_funcionarios']->value['db_telefone'];
+$_prefixVariable7 = ob_get_clean();
+echo $_prefixVariable7;?>
 </td>
 					
 				</tr>
@@ -70,8 +82,8 @@ echo $_prefixVariable5;?>
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
-$_prefixVariable6 = ob_get_clean();
-echo $_prefixVariable6;?>
+$_prefixVariable8 = ob_get_clean();
+echo $_prefixVariable8;?>
 
 			</table>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-24 22:33:37
+/* Smarty version 3.1.33, created on 2019-09-25 14:06:22
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\registrar_funcionario.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8a7da1d99b08_58459461',
+  'unifunc' => 'content_5d8b583ed4ffc0_58764472',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b50102a5859848c17815d18b4973f1f596583cf4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\registrar_funcionario.tpl',
-      1 => 1569357211,
+      1 => 1569413180,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8a7da1d99b08_58459461 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8b583ed4ffc0_58764472 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <div class="default col-md-9">
 
@@ -52,7 +52,7 @@ echo $_prefixVariable1;?>
                         <div class="form-group mt-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    CPF&nbsp &nbsp &nbsp
+                                    CPF&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                                 </span>
                                 <input type="text" name="rg_cpf" id="rg_cpf" 
                                     class="form-control" placeholder="Insira seu CPF..."  
@@ -63,7 +63,7 @@ echo $_prefixVariable1;?>
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    Endereço &nbsp &nbsp     
+                                    Endereço &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp     
                                 </span>
                                 <input type="text" name="rg_endereco" id="rg_endereco" 
                                     class="form-control" placeholder="Insira o endereço..." 
@@ -75,7 +75,7 @@ echo $_prefixVariable1;?>
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    Telefone&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp 
+                                    Telefone&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp 
                                 </span>
                                 <input type="text" name="rg_telefone" 
                                     id="rg_senha" class="form-control" 

@@ -32,10 +32,11 @@
                             </a>
 
                             <a href="index.php?ac=excluir&id={{$tb_usuarios.db_id_usuario}}" 
-                            class="btn btn-danger">
+                            class="btn btn-danger ">
                             <i class="fas fa-trash-alt mr-2"></i>
                                 Excluir
                             </a>
+
                         </td>
                     </tr>
                     {{/foreach}}

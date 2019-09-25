@@ -25,7 +25,7 @@
                         <div class="form-group mt-3">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    CPF&nbsp &nbsp &nbsp
+                                    CPF&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                                 </span>
                                 <input type="text" name="rg_cpf" id="rg_cpf" 
                                     class="form-control" placeholder="Insira seu CPF..."  
@@ -36,7 +36,7 @@
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    Endereço &nbsp &nbsp     
+                                    Endereço &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp     
                                 </span>
                                 <input type="text" name="rg_endereco" id="rg_endereco" 
                                     class="form-control" placeholder="Insira o endereço..." 
@@ -48,7 +48,7 @@
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    Telefone&nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp 
+                                    Telefone&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp 
                                 </span>
                                 <input type="text" name="rg_telefone" 
                                     id="rg_senha" class="form-control" 

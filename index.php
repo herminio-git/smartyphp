@@ -1,6 +1,10 @@
 <?php 
+
 $botao = "";
+$botaologin = "";
+
 session_start();
+
 include("includes/config.ini.php");
 $conexao = conectar();
 
@@ -9,10 +13,18 @@ $titulo = "Sistema de Gerenciamento";
 
 $smarty->assign("titulo", $titulo);
 $smarty->display("cabecalho.tpl");
+
 if(!isset($_SESSION["db_usuario"])){
 		$botao = "disabled";
 	}
 $smarty->assign("botao", $botao);
+
+
+if(isset($_SESSION["db_usuario"])){
+    $botaologin = "disabled";
+}
+$smarty->assign("botaologin", $botaologin);
+
 $smarty->display("menu.tpl");
 
 if(isset($_GET["ac"]) && $_GET["ac"]=="registrar_usuario"){
@@ -33,11 +45,17 @@ if(isset($_GET["ac"]) && $_GET["ac"]=="registrar_usuario"){
 }else if(isset($_GET["ac"]) && $_GET["ac"]=="registrar_funcionario"){
 	include("registrar_funcionario.php");
 
-}else if(isset($_GET["ac"]) && $_GET["ac"]=="editar_func"){
+}else if(isset($_GET["ac"]) && $_GET["ac"]=="editar_funcionario"){
 	include("editar_funcionario.php");
 
 }else if(isset($_GET["ac"]) && $_GET["ac"]=="editar_func"){
 	include("editar_func.php");
+
+}else if(isset($_GET["ac"]) && $_GET["ac"]=="excluir_func"){
+	include("excluir_funcionario.php");
+
+}else if(isset($_GET["ac"]) && $_GET["ac"]=="rel_funcionario"){
+	include("rel_funcionario.php");
 
 }else if(!isset($_SESSION["usuario"])){
 	include("login.php");

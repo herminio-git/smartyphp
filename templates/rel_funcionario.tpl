@@ -3,7 +3,7 @@
 	
     <div class="card ">
             <div class="card-header text-white bg-primary text-center">
-                Relatório de Usuários - {{$data_atual}}
+                Relatório de Funcionários - {{$data_atual}}
             </div><br>
 
 		<div class="card-body" width="95%">
@@ -11,14 +11,18 @@
 				<thead>
 					<th>ID</th>
 					<th>Nome</th>
-					<th>Usuário</th>
+					<th>CPF</th>
+					<th>Endereço</th>
+					<th>Telefone</th>
 					
 				</thead>
-				{{foreach from=$array_usuarios item=tb_usuario}}
+				{{foreach from=$array_funcionarios item=tb_funcionarios}}
 				<tr>
-					<td>{{$tb_usuario.db_id_usuario}}</td>
-					<td>{{$tb_usuario.db_nome_completo}}</td>
-					<td>{{$tb_usuario.db_usuario}}</td>
+					<td>{{$tb_funcionarios.db_id_funcionario}}</td>
+					<td>{{$tb_funcionarios.db_nome_completo}}</td>
+					<td>{{$tb_funcionarios.db_cpf}}</td>
+					<td>{{$tb_funcionarios.db_endereco}}</td>
+					<td>{{$tb_funcionarios.db_telefone}}</td>
 					
 				</tr>
 				{{/foreach}}
