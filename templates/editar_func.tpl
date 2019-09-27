@@ -5,6 +5,11 @@
                 <div class="card-header text-white bg-primary text-center">
                     Editar Funcionário
                 </div><br>
+
+                
+            <div class="row">    
+
+                <div class="coluna_um col-md-9">
             
                 <form name="registrar_funcionario" method="post">
         
@@ -23,7 +28,8 @@
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    CPF&nbsp &nbsp &nbsp     
+                                    CPF&nbsp &nbsp &nbsp &nbsp &nbsp
+                                     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp     
                                 </span>
                                 <input type="text" name="ed_cpf" id="ed_cpf" 
                                     class="form-control" placeholder="Insira seu CPF"
@@ -34,7 +40,7 @@
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    Endereço 
+                                    Endereço &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
                                 </span>
                                 <input type="text" name="ed_endereco" id="ed_endereco"
                                      class="form-control" placeholder="Insira seu endereço..." 
@@ -46,7 +52,8 @@
                         <div class="form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text">
-                                    Telefone   
+                                    Telefone&nbsp &nbsp &nbsp &nbsp
+                                     &nbsp &nbsp &nbsp   
                                 </span>
                                 <input type="text" name="ed_telefone" id="ed_telefone" 
                                     class="form-control" placeholder="Insira se telefone..."   
@@ -70,11 +77,22 @@
                     </div>
                     
                 
-                </form>
+                    </form>
+                </div>
+                <!-- End - coluna_um -->            
 
-                   
+                <div class="coluna_dois col-md-3 mb-5">
+                    <img src="includes\img\photo.png" alt="..." class="rounded">
+                </div>
+                <!-- End - coluna_dois -->
 
             </div>
+            <!-- End - row -->
 
-           
+        </div>
+        <!-- End - card -->
+                   
+    </div>
+    <!-- End - default -->
+          
 </div> <!-- End - div row que começa no "menu.tpl" -->    

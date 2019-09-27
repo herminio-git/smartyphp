@@ -5,6 +5,9 @@
                 <div class="card-header text-white bg-primary text-center">
                     Editar Usuário
                 </div><br>
+
+            <div class="row">
+                <div class="form_coluna_um col-md-9">    
             
                 <form name="registrar_usuario" method="post">
         
@@ -70,7 +73,12 @@
                     
                 
                 </form>
-
+                </div><!-- End - form_coluna_um -->
+                            <div class="form_coluna_dois col-md-3 mb-5">
+                
+                <img src="includes\img\photo.png" alt="..." class="rounded">
+            </div><!-- End - form_coluna_dois -->
+                </div><!-- End - row -->
                    
 
             </div>

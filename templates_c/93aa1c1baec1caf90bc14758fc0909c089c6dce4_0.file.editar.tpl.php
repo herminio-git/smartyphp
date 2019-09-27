@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-09-24 14:42:06
+/* Smarty version 3.1.33, created on 2019-09-27 14:05:06
   from 'C:\xampp\htdocs\qcursos\smartyphp\templates\editar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5d8a0f1e9a1668_40273430',
+  'unifunc' => 'content_5d8dfaf2a640f3_56272805',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '93aa1c1baec1caf90bc14758fc0909c089c6dce4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\qcursos\\smartyphp\\templates\\editar.tpl',
-      1 => 1569316732,
+      1 => 1569585671,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,17 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5d8a0f1e9a1668_40273430 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5d8dfaf2a640f3_56272805 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
-    <div class="default col-md-9">
+    <div class="default col-md-10">
        
             <div class="card ">
                 <div class="card-header text-white bg-primary text-center">
                     Editar Usuário
                 </div><br>
+
+            <div class="row">
+                <div class="form_coluna_um col-md-9">    
             
                 <form name="registrar_usuario" method="post">
         
@@ -98,7 +101,12 @@ function content_5d8a0f1e9a1668_40273430 (Smarty_Internal_Template $_smarty_tpl)
                     
                 
                 </form>
-
+                </div><!-- End - form_coluna_um -->
+                            <div class="form_coluna_dois col-md-3 mb-5">
+                
+                <img src="includes\img\photo.png" alt="..." class="rounded">
+            </div><!-- End - form_coluna_dois -->
+                </div><!-- End - row -->
                    
 
             </div>
